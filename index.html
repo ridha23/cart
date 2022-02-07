@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+    <section class="container">
+        <div class="cart_name">
+            My cart
+        </div>
+        <br>
+        <div class="cart_tab">
+            <div>Item</div>
+            <div>Qty</div>
+            <div>price</div>
+        </div>
+        <br>
+        <section class="cart_item_glob">
+        <div class="cart_item">
+            <div class="">
+                <img class="item_img" src="https://limitedresell.com/3640-home_default/air-jordan-1-mid-syracuse.jpg">
+            </div>
+            <div>
+                <input id="qty1"  name="" class="input_qty" type="number" min="0" value="1" onchange="multiply(); sum(); cartprice()">
+            </div>
+            <div><span id="total1" value="">120</span>
+                
+            </div>
+            <div><span id="heart"><i class="far fa-heart " onclick="hide()"></i></span>
+                <span id="noheart"><i class="fas fa-heart " onclick="hide()"></i></span>
+            </div>  <!---->
+        </div>
+        <div class="cart_item">
+            <div>
+                <img class="item_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5bLYpCdN4-c0dHStwOejehhu4mtoRlpCLfXhoVzWxgPm2EcJWsMKnEWNlpx5djOq5_Dg&usqp=CAU">
+            </div>
+            <div>
+                <input id="qty2"  name="" class="input_qty" type="number" min="0" value="3" onchange="multiply2(); sum(); cartprice()">
+            </div>
+            <div><span id="total2" value="">90</span>
+                
+            </div>
+            <div><span><i class="far fa-heart"></i></span></div>  <!--<i class="fas fa-heart"></i>-->
+        </div>
+        <div class="cart_item">
+            <div>
+                <img class="item_img" src="https://www.fanny-chaussures.com/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/d/a/date-sneakers-fuga-cuir-femme-platinium-2.jpg">
+            </div>
+            <div>
+                <input id="qty3"  name="" class="input_qty" type="number" min="0" value="2" onchange="multiply3(); sum(); cartprice()" >
+            </div>
+            <div><span id="total3" value="">1260</span>
+                
+            </div>
+            <div><span><i class="far fa-heart"></i></span></div>  <!--<i class="fas fa-heart"></i>-->
+        </div>
+        </section>
+        <br>
+        <div class="cart_total">
+            <div>Total</div>
+            <div><span id="taotalcart">6</span></div>
+            <div><span id="cartprice">1470</span></div>
+        </div>
+    </section>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

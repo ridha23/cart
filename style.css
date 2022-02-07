@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: #fafafa;
+    padding:  20px;
+    border-radius: 15px;
+}
+.cart_name{
+    background-color: rgb(255, 38, 38);
+    border-radius: 15px;
+    padding: 5px 5px 5px 10px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+.cart_tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: small;
+    padding: 5px 5px 5px 10px;
+}
+.cart_item_glob{
+
+    border-radius: 15px;
+    background-color: rgb(255, 38, 38);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: small;
+    padding: 20px 5px 5px 10px;
+    
+}
+.cart_item{
+display: flex;
+flex-direction: row;
+justify-content: space-around;  
+text-align: center;
+align-items: center;
+padding-bottom: 10px;
+}
+.item_img{
+    width : 50px;
+    border-radius: 5px;
+}
+.cart_total{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
+
+border-radius: 15px;
+background-color: rgb(255, 38, 38);
+color: white;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 300;
+font-size: small;
+padding: 10px 10px 10px 10px;
+margin-top: 20px;
+
+}
+.input_qty{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: transparent;
+    padding : 5px
+}
+#noheart{
+    display :none;
+}
